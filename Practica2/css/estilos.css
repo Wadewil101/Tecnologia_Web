@@ -6,7 +6,8 @@
 
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  
+  
   font-size: 16px;
   background: #504e43;
 }
@@ -19,6 +20,13 @@ body{
 header{
   background: #a31010;
   text-align: center;
+  
+  
+}
+header h1{
+  padding: 20px;
+  font-family: 'Libre Baskerville', serif;
+
   
 }
 header nav {
@@ -38,6 +46,7 @@ header nav a{
   color: black;
 
   font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
     
     
   
@@ -48,13 +57,14 @@ header nav a:active {
 }
 header nav a:hover{
   background: #999bbd;
-  font-size:65px;
+  font-size:55px;
 
 }
 main{
   background: #a31010;
   width: 50%;
   float:left;
+  text-align: justify;
 }
 .logo0 img{
   width: 100%;
@@ -63,11 +73,26 @@ main{
 .logo img{
   width: 100%;
 }
+article h2{
+  color: #ffffff;
+  font-size: 2em ;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+article p{
+  font-size: 1em;
+  padding: 12px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
 aside{
   background: #182c63;
   width: 25%;
   float: left;
   line-height: 25px;
+  font-family: 'Libre Baskerville', serif;
   
 }
 .aside1{
@@ -75,14 +100,24 @@ aside{
   
   text-align: justify;
 }
-.enlaces a{
+.enlaces li a{
   text-decoration: none;
   padding: 10px; 
-  color: black;
-  
+  color: black;  
+ 
 }
+.enlaces li{
+  list-style: none;
+  padding: 15px;
+}
+
+
 .enlaces li a:hover{
-  background: #E87ea1;
+  background: #999bbd;
+}
+.enlaces a{
+  color: rgb(219, 23, 23);
+ 
 }
 footer{
   background: #ebb3a9;
