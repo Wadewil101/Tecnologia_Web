@@ -144,7 +144,7 @@ footer{
       width: 100%;
     }
     header nav a{
-      font-size: 30px;
+      font-size: 20px;
     }
     .logo{
       text-align: center;
@@ -154,6 +154,9 @@ footer{
     footer{
       width: 100%;
     }
+    header nav a:hover{
+      background: #999bbd;
+      font-size:35px;
     
 }
 @media screen and (max-width:500px) {
