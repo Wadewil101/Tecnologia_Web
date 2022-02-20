@@ -140,6 +140,13 @@ footer{
     main{
       width: 100%;
     }
+    header nav{
+      width: 100%;
+    }
+    .logo{
+      width: 250px;
+      padding-left: 115px;
+    }
     
 }
 @media screen and (max-width:500px) {
@@ -148,8 +155,6 @@ footer{
     aside{
         display: none;
     }
-    nav{
-      display: none;
-    }
+    
     
 }
