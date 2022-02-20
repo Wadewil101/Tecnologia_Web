@@ -144,8 +144,12 @@ footer{
       width: 100%;
     }
     .logo{
-      width: 250px;
-      padding-left: 115px;
+      text-align: center;
+      width: 65%;
+      padding: 20%;
+    }
+    footer{
+      width: 100%;
     }
     
 }
