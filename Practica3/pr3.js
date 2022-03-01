@@ -22,13 +22,13 @@ function factorial (){
         }
  
         
-        document.getElementById ('exto').innerHTML=`el factorial de ${i-1} es ${factorial}`;
+        document.getElementById ('exto').innerHTML=`El factorial de ${i-1} es ${factorial}`;
     }
 
 // Ejercicio 3
 function fizzbuzz() {
     var display = document.getElementById('disp');
-    document.write("ALGORITMO FIZZ BUZZ", "<br>Este algoritmo se basa en que se debe hacer un contador desde el número 1 al número 100, en orden correlativo, pero cada vez que un número sea múltiplo de 3, debe decir Fizz y cada vez que un número sea múltiplo de 5, debe decir Buzz, en el caso que un número sea múltiplo de 3 y 5, debe decir FizzBuzz, si el número no","<br>");
+    document.write("ALGORITMO FIZZ BUZZ", "<br>Este algoritmo se basa en que se debe hacer un contador desde el número 1 al número 100, en orden correlativo, pero cada vez que un número sea múltiplo de 3, debe decir Fizz y cada vez que un número sea múltiplo de 5, debe decir Buzz, en el caso que un número sea múltiplo de 3 y 5, debe decir FizzBuzz, si el número no es múltiplo de 3 o 5 no mostrara nada","<br>");
   
     for (i = 1; i < 101; i = i +1){
         if (i % 3 == 0 && i % 5 == 0){

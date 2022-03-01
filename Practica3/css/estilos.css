@@ -7,15 +7,16 @@
   
   
     font-size: 16px;
-    background: #217a30;
+    background: #e79a09;
   }
   .contenedor{
-    background: #86ce00;
+    background: #f5dd0a;
     max-width: 610px;
-    margin: 20px auto;
+    margin:  auto;
     overflow: hidden;
+    margin-top: 10px;
   }
-  main h2{
+  header h2{
       padding: 20px;
       background: aliceblue;
       font-size: 2.5em;
@@ -32,9 +33,51 @@
       margin-top: 8px;
   }
   footer{
-      background: #01490d;
+      background: #ffb23e;
       padding: 15px;
       text-align: center;
       color: white;
-      font-size: 0.8em;
+      font-size: 0.7em;
   }
+  img{
+      width: 100%;
+      padding: auto;
+  }
+  .contenedor p{
+      text-align: center;
+      font-size: 1.5em;
+      
+      
+  }
+  input[type="text"]{
+	width: 95%;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: center;
+    border-radius: 10px;
+    border-color: yellow;
+    font-size: 1.5em;
+    
+}
+form .bot {
+	width: 100%;
+	background: #ff7b00;
+	color: rgb(12, 11, 11);
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+input[type=button]:hover{
+    background: red;
+    color: white;
+}
+.contenedor label{
+    font-size: 2em;
+}
+  
