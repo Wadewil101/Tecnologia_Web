@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0;
+  
+  }
+  body{
+  
+  
+    font-size: 16px;
+    background: #217a30;
+  }
+  .contenedor{
+    background: #86ce00;
+    max-width: 610px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  main h2{
+      padding: 20px;
+      background: aliceblue;
+      font-size: 2.5em;
+      text-align: center;
+  }
+  main ul{
+      padding: 35px;
+      line-height: 25px;
+      font-size: 1.5em;
+      
+      
+  }
+  main ul li{
+      margin-top: 8px;
+  }
+  footer{
+      background: #01490d;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      font-size: 0.8em;
+  }
